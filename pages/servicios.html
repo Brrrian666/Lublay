@@ -68,54 +68,143 @@
     </header>
     <main>
         <section>
-            <h1></h1>
+            <div class="servicios">
+                <h2 class="titulo">Nuestros servicios</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item dark">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Preguntas frecuentes #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>¿Quienes Somos?, ¿Porque confiar en nosotros?, ¿Garantias? ¿Metodos de pago?.</strong> 
+                            Somos una empresa Argentina, dedicado al mundo gaiming que motiva a brindar productos
+                            a aquellos equipos semi profesionales y profesionales. Y a cualquier persona que 
+                            le gusté el gaming.Te brindamos una Atencion unica, tu producto llegue en buen estado
+                            y sobre todo a tiempo. Todos nuestros productos tienen garantia de la empresa y de la misma marca.
+                            Aceptamos todo tipo de pago, tarjeta de credito y debito.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Trabaja con nosotros #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Servicio tecnico #3
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Mundo gaming #4
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Dejaremos unos videos para entender ¿Que es un mundo gaming? .</strong> Estos videos son
+                            clips sacados de YouTube con la intencion de informar a los usuarios.
+                            ¡Nuestros productos son apto para muchos tipos de juegos!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="videos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/te1UhJji7Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="textArea">
+                <h3 class="textForm">Dejanos tu duda, nos contactaremos contigo</h3>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div id="Mails">
+                    <input type="email" id="email" placeholder="email">
+                    <button>
+                        <h4>Enviar</h4>
+                    </button>
+            </div>
         </section>
     </main>
     <footer>
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <img class="logofooter" src="../img/logolb.png" alt="LUBLAY">
+        <div id="footerContenido">
+            <div id="footerContactos">
+                <img class="logoFooter" src="../img/logolb.png" alt="LUBLAY">
                 <h3 class="textRedes"> <b>Nuestras Redes</b> </h3>
-                <div id="footer_social_media">
-                    <a href="https://www.instagram.com/alan.alz18/" class="footer-link" id="instagram">
+                <div id="footerRedes">
+                    <a href="https://www.instagram.com/alan.alz18/" class="footerLink" id="instagram">
                         <img src="../img/instagram.png" alt="">
                     </a>
-                    <a href="https://www.facebook.com" class="footer-link" id="facebook">
+                    <a href="https://www.facebook.com" class="footerLink" id="facebook">
                         <img src="../img/facebook.png" alt="">
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=5491154737617&text=Hola%20Brian" class="footer-link"
+                    <a href="https://api.whatsapp.com/send?phone=5491154737617&text=Hola%20Brian" class="footerLink"
                         id="whatsapp">
                         <img src="../img/whatsapp.png" alt="">
                     </a>
                 </div>
             </div>
-            <ul class="footer-list">
+            <ul class="footerLista">
                 <li>
                     <h3><b>Informacion</b></h3>
                 </li>
                 <li>
-                    <p class="footer-link">Atencion telefonica: 8888888</p>
+                    <p class="footerLink">Atencion telefonica: 8888888</p>
                 </li>
                 <li>
-                    <p class="footer-link">whatsapp: 222222222</p>
+                    <p class="footerLink">whatsapp: 222222222</p>
                 </li>
                 <li>
-                    <p class="footer-link">Gmail: lublay@gmail.com</p>
+                    <p class="footerLink">Gmail: lublay@gmail.com</p>
                 </li>
             </ul>
-            <ul class="footer-list">
+            <ul class="footerLista">
                 <li>
                     <h3><b>Nosotros</b></h3>
                 </li>
                 <li>
-                    <p class="footer-link">En lublay buscamos destacar por nuestro conocimiento e intentamos
-                        establecernos como la opción ideal para sus compras de tecnología. Todos nuestros vendedores se
-                        encuentran altamente capacitados para asesorarlo y ofrecerle exactamente lo que necesita.</p>
+                    <p class="footerLink">En lublay buscamos destacar por nuestro conocimiento e intentamos
+                        establecernos como la opción ideal para sus compras de tecnología.</p>
             </ul>
-            <div id="footer_subscribe">
+            <div id="footerSubs">
                 <h3><b>Subscribete</b></h3>
                 <p>Recibi las mejores ofertas del mercado </p>
-                <div id="input_group">
+                <div id="inputMail">
                     <input type="email" id="email" placeholder="email">
                     <button>
                         <h4>Subscribite</h4>
@@ -123,14 +212,15 @@
                 </div>
             </div>
         </div>
-        <div id="footer_copyright">
+        <div id="footerCopyright">
             &#169
             2023 todos los derechos reservados
         </div>
     </footer>
-        <!--BOOTSTRAP JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

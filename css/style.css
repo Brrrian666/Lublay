@@ -498,5 +498,79 @@ footer {
 }
 
 
-/*-----------PRODUCTOS----------*/
+/*-----------SERVICIOS----------*/
+
+.servicios .titulo {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.accordion-item {
+    background-color: #fff;
+    color: white;
+}
+
+.accordion button {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.accordion-collapse {
+    background-color: #3e2858;
+}
+
+#Mails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    width: 26%;
+    margin-left: 42rem;
+    margin-top: 20rem;
+}
+
+#Mails input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#Mails button {
+    background-color: #7f37c9;
+    border: none;
+    padding: 0px 1.25rem; 
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#Mails button h4 {
+    font-size: 17px;
+    margin-top: 4px;
+    padding: 10px;
+}
+
+.textArea {
+    position: relative;
+    left: 50rem;
+    top: 15rem;
+    width: 50%;
+}
+
+.textForm {
+    color: #fff;
+    text-align: start;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
 
