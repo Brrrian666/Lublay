@@ -528,7 +528,7 @@ footer {
     border-radius: 4px;
     width: 26%;
     margin-left: 42rem;
-    margin-top: 20rem;
+    margin-top: 7rem;
 }
 
 #Mails input {
@@ -551,18 +551,30 @@ footer {
     padding: 10px;
 }
 
+@media screen and (max-width: 995px) {
+    #Mails {
+        display: none;
+    }
+    .textForm {
+        text-align: center;
+    }
+}
+
 .textArea {
-    position: relative;
-    left: 50rem;
-    top: 15rem;
     width: 50%;
+    margin-top: 90px;
+}
+
+.textArea textarea {
+    resize: none;
+    margin-left: 80px;
+    width: 100%;
 }
 
 .textForm {
     color: #fff;
-    text-align: start;
     padding: 20px;
-    margin-right: 100px;
+    margin-left: 14rem;
 }
 
 .videos {
@@ -570,6 +582,75 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+
+/*-----PRODUCTOS-------*/
+
+.Subtitulo {
+	text-align: center;
+	padding-top: 3rem;
+	font-size: 3rem;
+    color: white;
+}
+
+.allProducts{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.productCaja{
+	overflow: hidden;
+	background: #3e2858;
+    border: 2px solid black;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 450px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+.productCaja .productTitle, .productCaja .productPrice{
+	font-size: 18px;
+}
+
+.productCaja:hover img{
+	scale:  1.1;
+}
+
+.productCaja:hover {
+	box-shadow: 5px 15px 25px #46124b;
+}
+
+.productCaja img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.productCaja a:link, .productCaja a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000000;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.productCaja a:hover{
+	transform: scale(1.1);
 }
 
 
